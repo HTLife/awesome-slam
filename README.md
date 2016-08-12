@@ -1,15 +1,31 @@
-# Awesome SLAM [![Awesome](https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg)](https://github.com/sindresorhus/awesome)
+# Current status of SLAM (2016) & Resources
 
 Simultaneous Localization and Mapping, also known as SLAM, is the computational problem of constructing or updating a map of an unknown environment while simultaneously keeping track of an agent's location within it.
 
 ## News
 * For researchers, please read the recent review paper, [Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age](https://arxiv.org/abs/1606.05830), from Cesar Cadena, Luca Carlone et al.
 
+## John Leonard's advices for new SLAM researcher
+Quote from (Podcast, December, 2014)[Robots Podcast \#172: 3D SLAM, with John Leonard](http://robohub.org/robots-podcast-3d-slam)
+>(Time 24:20)Do you have any advice for researcher starting out?
+1. You need to be good at **math**
+2. You need to be good at **programming**
+3. (reuse others works) You need to learn how to rapidly in-
+stall packages If you can learn the software programming
+capability interconnected from pieces and use the work de-
+velop by others effectly. That give you a better foundation
+to build your own contribution.(If I have seen further it is
+by **standing on the shoulders of giants**.)
+
 ## Table of Contents
+
+* **[Breif History of SLAM](#bHistory)**  
 
 * **[Books](#books)**  
 
 * **[Courses, Lectures and Workshops](#courses-lectures-and-workshops)**  
+
+* **[Speech](#speech)**  
 
 * **[Papers](#papers)**  
 
@@ -22,6 +38,25 @@ Simultaneous Localization and Mapping, also known as SLAM, is the computational 
 * **[Miscellaneous](#miscellaneous)**  
 
 * **[Contributing](#contributing)**  
+
+### Brief History of SLAM
+
+> More detail please read this [Past, Present, and Future of Simultaneous Localization And Mapping: Towards the Robust-Perception Age](https://arxiv.org/abs/1606.05830), from Cesar Cadena, Luca Carlone et al.
+
+
+- (1986-2004) Classical age
+	-  Intoduction of the main probabilistic formulations for SLAM.  (Extended Kalman Filters, Particle Filters, maximum likelihood estimation, ...)
+- (2004-2015) Algorithmic-analysis age
+	- Keyword: **Sparsity**
+	- Studing the fundamental properties of SLAM.  (Observability, convergence, and consistency)
+- (2016) Robust-perception age
+	- Keyword: **Density**
+	- Third era for SLAM
+		-  Robust performance
+		-  High-level understanding
+		-  Resource awareness
+		-  Task-driven inference
+
 
 
 ### Books
@@ -53,6 +88,15 @@ Simultaneous Localization and Mapping, also known as SLAM, is the computational 
 - [SLAM Summer School](http://www.acfr.usyd.edu.au/education/summerschool.shtml) organized by Australian Centre for Field Robotics (2009)
 - [SLAM Summer School](http://www.robots.ox.ac.uk/~SSS06/Website/index.html) organized by University of Oxford and Imperial College London (2006)
 - [SLAM Summer School](http://www.cas.kth.se/SLAM/) organized by KTH Royal Institute of Technology (2002)
+
+
+### Speech
+- (Slide, 2015) [30 Years of SLAM, John Leonard](https://drive.google.com/file/
+d/0B5TqlPZff_DGNGtOa2lwcVFCbk0/view?usp=sharing,), Workshop of The Problem of Mobile Sensors
+- (Youtube, 2015) [RI Seminar: John Leonard : Mapping, Localization, and Self-Driving Vehicles](https://www.youtube.com/watch?v=
+x5CZmlaMNCs)
+- (Podcast, December, 2014)[Robots Podcast \#172: 3D SLAM, with John Leonard](http://robohub.org/robots-podcast-3d-slam)
+
 
 
 ### Papers
